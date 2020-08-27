@@ -1,0 +1,428 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-wrap: break-word;
+}
+html{
+    height: 100%;
+    min-width: 100%
+}
+/* HEADER AND NAV SYTLE */
+header nav ul {
+    display: none;
+}
+header > #header-wrapper > p {
+    background-color: #F8D7DA;
+    padding: 15px;
+    border: 1px solid #F8D7DA;
+    border-radius: 5px;
+}
+header  #header-wrapper  a  img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+/* MAIN STYLE */
+/* SECTION 1 */
+.sec1-bg{
+    margin: auto;
+    width: 85%;
+    height: 225px;
+    background-image: url("/images/agent.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+.sec1-div1-content{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 5%;
+    color: white
+}
+h2.sec1-div1-content {
+    top: 35%;
+    color: #FF6600;
+}
+#sec1-div1 {
+    position: relative;
+    background-image: url("/images/slide021.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sec1-div2 p:first-child{
+    font-size: 30px;
+    color: #6D476B;
+    text-align: center;
+}
+#bg-color{
+    background-color: #F7F7F7;
+    margin: 0 15px;
+}
+#sec1-div3{
+    margin: 4em auto;
+    width: 85%;
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 16px;
+    font-weight: 700;
+}
+#sec1-div3 > form p:first-child{
+    margin-bottom: 20px;
+}
+#sec1-div3 > form p:nth-child(4){
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#sec2-div{
+    text-align: center;
+    margin: 25em 0 2em 0;
+}
+#sec2-div > a{
+    padding: 10px;
+    background-color: #FF6600;
+    color: white;
+    border: 1px solid #FF6600 ;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    border-radius: 7px;
+}
+#sec2-div > a:hover{
+    background-color: #6E225E;
+    border: 1px solid #6E225E ;
+}
+#sec2-div #color {
+    background-color: #F7F7F7;
+    height: 100px;
+    margin-top: 2em;
+}
+/* SECTION 2 & section 3*/
+#section2, #section3{
+    overflow-x: hidden;
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
+}
+#section3{
+    background-color: #F7F7F7;
+}
+
+.sec2-div-img > img{
+    height: 50%;
+    width: 87%;
+    border: 1px solid rgba(83, 80, 80, 0.082);
+    padding: 5px;
+    display: inline-block;              
+    border-radius: 50%;
+    position: relative;
+}
+#section2 h2{
+    font-weight: 500;
+    font-size: 30px ;
+    margin-bottom: 30px;
+    color: #6D4D7E;
+}
+#section2 h2 .seperator, #sec3-div5 h3 .seperator, .seperator{
+    width: 50px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #FF6600;
+   margin: auto;
+   margin-top: 20px;
+}
+.sec2-div-content, .sec3-div-content{
+    text-align: initial;
+    padding: 30px;
+}
+.sec2-div-content h3, .sec3-div-content h3{
+ color: #6D4D7E;
+ font-weight: 2;
+ font-size: 2rem;
+ margin-bottom: 1.5em;
+}
+.sec2-div-content p, .sec3-div-content p{
+    color: rgba(0, 0, 0, 0.397);
+    line-height: 1.4em;
+}
+.sec2-div-content a, .sec3-div-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FF6600;
+    cursor: pointer;
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1em;
+    background-image: linear-gradient(to right, #FF6600 50%,transparent 50%);
+    background-position: 90% 0;
+    background-size: 200% 50%;
+    transition: .6s ;
+
+}
+.sec2-div-content a:hover, .sec3-div-content a:hover{
+    color:white;
+    background-position: 0% 100%;
+}
+
+.sec3-div-img > img{
+    display: inline-block;
+    width: 85%;
+}
+#sec3-div5{
+    background-color: white;
+    padding: 0;
+    position: relative;
+}
+#sec3-div5 h3{
+    text-align: center;
+    padding: 30px;
+}
+#sec3-div5 p{
+    color: #818181;
+    background-color: #354256 ;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+/* FOOTER STYLE */
+footer{
+    background-color: #354256;
+    color: #818181;
+}
+.F-divs{
+    padding: 30px;
+}
+.F-divs h3{
+    color: white;
+}
+.F-divs p a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin: 8px 0;
+}
+.F-divs .seperator{
+    margin: initial;
+    margin-top: 10px;
+
+}
+
+.F-divs p a:hover {
+ text-decoration: underline;
+}
+.F-divs p span {
+    display: inline-block;
+    margin-top: 15px;
+}
+#F-bottom {
+    background-color: #263143;
+    padding: 40px;
+}
+/* ABOUT PAGE STYLE */
+ #WWA-wrapper{
+    margin-top: 1em;
+} 
+#about-div1 p{
+    margin-top: 5px;
+
+}
+#about-div2, #about-div3{
+     margin-top: 8em;
+    padding: 0 20px;
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.425);
+    font-weight: 600;
+}
+#about-div2 h2{
+    color: #6E225E;
+    text-align: center;
+}
+#about-div2 p,#about-div3 p{
+    margin-top: 10px;
+}
+.fontColor, #abou-div2 ul li a{
+    color: #FF6600;
+}
+#about-div2 ul {
+    padding: 0 17px;
+    font-size: 14px;
+}
+#about-div3 {
+    margin-top: 5em;
+    padding: 0 20px;
+}
+#about-div3 .left-align{
+    margin: initial;
+    margin-top: 20px;
+}
+#about-div3 h3 {
+    color: #6E225E;
+    margin-top: 20px;
+}
+#about-div3 :last-child {
+    margin-bottom: 5em;
+}
+.top img {
+    width: 25px;
+    height: 25px;
+}
+.top{
+    z-index: 20;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #FF6600;
+    background-color: #FF6600;
+
+}
+ 
+@media (min-width: 768px) {
+    /* HEADER */
+    #header-wrapper{
+        position: fixed;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 2;
+    }
+    header  #header-wrapper  a  img {
+        margin: initial;
+        margin-top: -33px;
+    }
+    header nav ul {
+        display: block;
+        list-style: none;
+    }
+    header nav ul li {
+        display: inline-block;
+        font-size: 12px;
+        padding: 10px;
+    }
+    #FlexHeader{
+        margin-top: 2em;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #FlexHeader nav ul li a {
+
+        text-decoration: none;
+        color: #FF6600;
+
+    }
+    #FlexHeader nav ul li a:hover, #FlexHeader nav ul li a:active {
+        color: #6E225E;
+    }
+    .nav-links{
+        position: relative;
+    }
+    .nav-links ul{
+        position: absolute;
+        background-color: white;
+        display: none;
+        width: 150px;
+        z-index: 2;
+    }
+    .nav-links:hover ul {
+        display: block;
+    }
+    .sub-nav-links{
+        margin-top: 5px;
+    }
+    /* MAIN */
+    main{
+        margin-top: 10em;
+    }
+    #section1{
+        display: flex;
+    }
+    .sec2-div-content h3 {
+        font-size: 1.4em;
+    }
+    #sec1-div1{
+        width: 58%;
+        height: 480px;
+        margin: 0 auto;
+    }
+    #bg-color{
+        width: 34%;
+        height: 600px;
+    }
+    .sec1-bg{
+        background-size: contain;
+        margin-top: 10px;
+    }
+    #sec1-div3{
+        margin: 10px auto;
+    }
+    .sec2-flex{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .sec2-divs{
+        width: 25%;
+    }
+    #sec3-flex{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .sec3-div-content h3 {
+        font-size: 1.8em;
+    }
+    .sec3-divs{
+        width: 25%;
+    }
+    #sec3-div5{
+        width: 100%;
+    }
+    #footer-flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .F-divs{
+        width: 32%;
+    }
+    /* ABOUT STYLE */
+    #about-div1{
+        font-size: 14px;
+        display: flex;
+        margin: auto;
+        width: 90%;
+        justify-content: space-between;
+    }
+    #about-div2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 7em;
+    }
+    #about-div3{
+        width: 50%
+    }
+}
+@media (min-width: 1024px) {
+    .sec2-div-content h3 {
+        font-size: 2em;
+    }
+    .sec3-div-content h3 {
+        font-size: 2em;
+    }
+}
+
+
+
+
+
+
